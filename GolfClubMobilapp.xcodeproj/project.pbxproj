@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864CDA742CBDB10B0098E6C3 /* ColorHex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864CDA732CBDB10B0098E6C3 /* ColorHex.swift */; };
+		86B2169F2CB8752F00CADE40 /* GolfClubMobilappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B2169E2CB8752F00CADE40 /* GolfClubMobilappApp.swift */; };
+		86B216A12CB8752F00CADE40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216A02CB8752F00CADE40 /* ContentView.swift */; };
+		86B216A32CB8753100CADE40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B216A22CB8753100CADE40 /* Assets.xcassets */; };
+		86B216A62CB8753100CADE40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B216A52CB8753100CADE40 /* Preview Assets.xcassets */; };
+		86B216B02CB8753100CADE40 /* GolfClubMobilappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216AF2CB8753100CADE40 /* GolfClubMobilappTests.swift */; };
+		86B216BA2CB8753100CADE40 /* GolfClubMobilappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216B92CB8753100CADE40 /* GolfClubMobilappUITests.swift */; };
+		86B216BC2CB8753100CADE40 /* GolfClubMobilappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216BB2CB8753100CADE40 /* GolfClubMobilappUITestsLaunchTests.swift */; };
+		86B216CA2CB8778A00CADE40 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216C92CB8778A00CADE40 /* Header.swift */; };
+		86B216CC2CB87FD100CADE40 /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216CB2CB87FD100CADE40 /* Events.swift */; };
+		86B216CE2CB882E300CADE40 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B216CD2CB882E200CADE40 /* Cards.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B216AC2CB8753100CADE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B216932CB8752F00CADE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B2169A2CB8752F00CADE40;
+			remoteInfo = GolfClubMobilapp;
+		};
+		86B216B62CB8753100CADE40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B216932CB8752F00CADE40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B2169A2CB8752F00CADE40;
+			remoteInfo = GolfClubMobilapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864CDA732CBDB10B0098E6C3 /* ColorHex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorHex.swift; sourceTree = "<group>"; };
+		86B2169B2CB8752F00CADE40 /* GolfClubMobilapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GolfClubMobilapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B2169E2CB8752F00CADE40 /* GolfClubMobilappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfClubMobilappApp.swift; sourceTree = "<group>"; };
+		86B216A02CB8752F00CADE40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		86B216A22CB8753100CADE40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B216A52CB8753100CADE40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		86B216AB2CB8753100CADE40 /* GolfClubMobilappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfClubMobilappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B216AF2CB8753100CADE40 /* GolfClubMobilappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfClubMobilappTests.swift; sourceTree = "<group>"; };
+		86B216B52CB8753100CADE40 /* GolfClubMobilappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GolfClubMobilappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B216B92CB8753100CADE40 /* GolfClubMobilappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfClubMobilappUITests.swift; sourceTree = "<group>"; };
+		86B216BB2CB8753100CADE40 /* GolfClubMobilappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolfClubMobilappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		86B216C92CB8778A00CADE40 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		86B216CB2CB87FD100CADE40 /* Events.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		86B216CD2CB882E200CADE40 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B216982CB8752F00CADE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216A82CB8753100CADE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216B22CB8753100CADE40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B216922CB8752F00CADE40 = {
+			isa = PBXGroup;
+			children = (
+				86B2169D2CB8752F00CADE40 /* GolfClubMobilapp */,
+				86B216AE2CB8753100CADE40 /* GolfClubMobilappTests */,
+				86B216B82CB8753100CADE40 /* GolfClubMobilappUITests */,
+				86B2169C2CB8752F00CADE40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B2169C2CB8752F00CADE40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B2169B2CB8752F00CADE40 /* GolfClubMobilapp.app */,
+				86B216AB2CB8753100CADE40 /* GolfClubMobilappTests.xctest */,
+				86B216B52CB8753100CADE40 /* GolfClubMobilappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B2169D2CB8752F00CADE40 /* GolfClubMobilapp */ = {
+			isa = PBXGroup;
+			children = (
+				86B216C82CB8774C00CADE40 /* Widgets */,
+				86B2169E2CB8752F00CADE40 /* GolfClubMobilappApp.swift */,
+				864CDA732CBDB10B0098E6C3 /* ColorHex.swift */,
+				86B216CD2CB882E200CADE40 /* Cards.swift */,
+				86B216C92CB8778A00CADE40 /* Header.swift */,
+				86B216CB2CB87FD100CADE40 /* Events.swift */,
+				86B216A02CB8752F00CADE40 /* ContentView.swift */,
+				86B216A22CB8753100CADE40 /* Assets.xcassets */,
+				86B216A42CB8753100CADE40 /* Preview Content */,
+			);
+			path = GolfClubMobilapp;
+			sourceTree = "<group>";
+		};
+		86B216A42CB8753100CADE40 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				86B216A52CB8753100CADE40 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		86B216AE2CB8753100CADE40 /* GolfClubMobilappTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B216AF2CB8753100CADE40 /* GolfClubMobilappTests.swift */,
+			);
+			path = GolfClubMobilappTests;
+			sourceTree = "<group>";
+		};
+		86B216B82CB8753100CADE40 /* GolfClubMobilappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B216B92CB8753100CADE40 /* GolfClubMobilappUITests.swift */,
+				86B216BB2CB8753100CADE40 /* GolfClubMobilappUITestsLaunchTests.swift */,
+			);
+			path = GolfClubMobilappUITests;
+			sourceTree = "<group>";
+		};
+		86B216C82CB8774C00CADE40 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B2169A2CB8752F00CADE40 /* GolfClubMobilapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B216BF2CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilapp" */;
+			buildPhases = (
+				86B216972CB8752F00CADE40 /* Sources */,
+				86B216982CB8752F00CADE40 /* Frameworks */,
+				86B216992CB8752F00CADE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GolfClubMobilapp;
+			productName = GolfClubMobilapp;
+			productReference = 86B2169B2CB8752F00CADE40 /* GolfClubMobilapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B216AA2CB8753100CADE40 /* GolfClubMobilappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B216C22CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilappTests" */;
+			buildPhases = (
+				86B216A72CB8753100CADE40 /* Sources */,
+				86B216A82CB8753100CADE40 /* Frameworks */,
+				86B216A92CB8753100CADE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B216AD2CB8753100CADE40 /* PBXTargetDependency */,
+			);
+			name = GolfClubMobilappTests;
+			productName = GolfClubMobilappTests;
+			productReference = 86B216AB2CB8753100CADE40 /* GolfClubMobilappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B216B42CB8753100CADE40 /* GolfClubMobilappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B216C52CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilappUITests" */;
+			buildPhases = (
+				86B216B12CB8753100CADE40 /* Sources */,
+				86B216B22CB8753100CADE40 /* Frameworks */,
+				86B216B32CB8753100CADE40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B216B72CB8753100CADE40 /* PBXTargetDependency */,
+			);
+			name = GolfClubMobilappUITests;
+			productName = GolfClubMobilappUITests;
+			productReference = 86B216B52CB8753100CADE40 /* GolfClubMobilappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B216932CB8752F00CADE40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					86B2169A2CB8752F00CADE40 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					86B216AA2CB8753100CADE40 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 86B2169A2CB8752F00CADE40;
+					};
+					86B216B42CB8753100CADE40 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 86B2169A2CB8752F00CADE40;
+					};
+				};
+			};
+			buildConfigurationList = 86B216962CB8752F00CADE40 /* Build configuration list for PBXProject "GolfClubMobilapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B216922CB8752F00CADE40;
+			productRefGroup = 86B2169C2CB8752F00CADE40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B2169A2CB8752F00CADE40 /* GolfClubMobilapp */,
+				86B216AA2CB8753100CADE40 /* GolfClubMobilappTests */,
+				86B216B42CB8753100CADE40 /* GolfClubMobilappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B216992CB8752F00CADE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B216A62CB8753100CADE40 /* Preview Assets.xcassets in Resources */,
+				86B216A32CB8753100CADE40 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216A92CB8753100CADE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216B32CB8753100CADE40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B216972CB8752F00CADE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B216CE2CB882E300CADE40 /* Cards.swift in Sources */,
+				864CDA742CBDB10B0098E6C3 /* ColorHex.swift in Sources */,
+				86B216CC2CB87FD100CADE40 /* Events.swift in Sources */,
+				86B216A12CB8752F00CADE40 /* ContentView.swift in Sources */,
+				86B216CA2CB8778A00CADE40 /* Header.swift in Sources */,
+				86B2169F2CB8752F00CADE40 /* GolfClubMobilappApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216A72CB8753100CADE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B216B02CB8753100CADE40 /* GolfClubMobilappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B216B12CB8753100CADE40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B216BC2CB8753100CADE40 /* GolfClubMobilappUITestsLaunchTests.swift in Sources */,
+				86B216BA2CB8753100CADE40 /* GolfClubMobilappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B216AD2CB8753100CADE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B2169A2CB8752F00CADE40 /* GolfClubMobilapp */;
+			targetProxy = 86B216AC2CB8753100CADE40 /* PBXContainerItemProxy */;
+		};
+		86B216B72CB8753100CADE40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B2169A2CB8752F00CADE40 /* GolfClubMobilapp */;
+			targetProxy = 86B216B62CB8753100CADE40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		86B216BD2CB8753100CADE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		86B216BE2CB8753100CADE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B216C02CB8753100CADE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfClubMobilapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B216C12CB8753100CADE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GolfClubMobilapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		86B216C32CB8753100CADE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfClubMobilapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfClubMobilapp";
+			};
+			name = Debug;
+		};
+		86B216C42CB8753100CADE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GolfClubMobilapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GolfClubMobilapp";
+			};
+			name = Release;
+		};
+		86B216C62CB8753100CADE40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfClubMobilapp;
+			};
+			name = Debug;
+		};
+		86B216C72CB8753100CADE40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.GolfClubMobilappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GolfClubMobilapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B216962CB8752F00CADE40 /* Build configuration list for PBXProject "GolfClubMobilapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B216BD2CB8753100CADE40 /* Debug */,
+				86B216BE2CB8753100CADE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B216BF2CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B216C02CB8753100CADE40 /* Debug */,
+				86B216C12CB8753100CADE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B216C22CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B216C32CB8753100CADE40 /* Debug */,
+				86B216C42CB8753100CADE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B216C52CB8753100CADE40 /* Build configuration list for PBXNativeTarget "GolfClubMobilappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B216C62CB8753100CADE40 /* Debug */,
+				86B216C72CB8753100CADE40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 86B216932CB8752F00CADE40 /* Project object */;
+}
